@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero .btn-get-started {
+ .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
+ .btn-get-started:hover {
   background: #2dc997;
   border: 2px solid #2dc997;
 }

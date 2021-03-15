@@ -156,7 +156,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh;
     background: top center;
-    background-image: url('../img/IMG_5519.jpg');
+    
+    background-image: url('../img/fishin.jpg');/*this is the main image, it has not run as such since transfer to mvc*/
     background-size: cover;
     position: relative;
 }
@@ -220,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-#hero .btn-get-started {
+ .btn-get-started {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
@@ -235,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-    #hero .btn-get-started:hover {
+ .btn-get-started:hover {
         background: #2dc997;
         border: 2px solid #2dc997;
     }
@@ -748,7 +749,7 @@ section {
 #call-to-action {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-image: url('../img/0.jpg');
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     background-size: 100%;
     padding: 150px 0;
 }
