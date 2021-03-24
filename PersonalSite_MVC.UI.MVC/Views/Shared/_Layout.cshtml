@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Regna Bootstrap Template</title>
+    <title>Jeremy Sidener</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="~/Content/assets/img/favicon.png" rel="icon">
+    <link href="~/Content/assets/img/favicon2.png" rel="icon">
     <link href="~/Content/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -54,25 +54,7 @@
                     <li><a href="#services">Resume</a></li>
                     <li><a href="#portfolio">Portfolio</a></li><!--pdf to resume here-->
                     <li><a href="#team">Team</a></li><!--add links to classmates-->
-                    @*<li class="menu-has-children">
-                        <a href="">Drop Down</a>
-                        <ul>
-                            <li><a href="#">Drop Down 1</a></li>
-                            <li class="menu-has-children">
-                                <a href="#">Drop Down 2</a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Drop Down 3</a></li>
-                            <li><a href="#">Drop Down 4</a></li>
-                            <li><a href="#">Drop Down 5</a></li>
-                        </ul>
-                    </li>*@
+                 
                     <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </nav><!-- #nav-menu-container -->
@@ -112,7 +94,7 @@
                 https://bootstrapmade.com/license/
                 https://bootstrapmade.com/buy/?theme=Regna
 
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade, Remixed by JEREMY SIDENER</a>
             </div>
         </div>
     </footer><!-- End Footer -->
@@ -137,6 +119,7 @@
     <script src="~/Content/assets/js/main.js"></script>
     @RenderSection("scripts",false )
      <script>
+         $("#contactConfirm").hide();
          $("#ContactCreateForm").submit(function (e) {
              var formData = $(this).serializeArray();
              e.preventDefault();
