@@ -790,10 +790,12 @@ section {
     color: #ff9;
     font-size: 28px;
     font-weight: 700;
+    text-shadow: 1px 2px #2dc997;
 }
 
 #call-to-action .cta-text {
     color: #ff9;
+    text-shadow: 1px 2px #2dc997;
 }
 
 @media (min-width: 769px) {
