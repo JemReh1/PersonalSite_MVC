@@ -790,12 +790,12 @@ section {
     color: #ff9;
     font-size: 28px;
     font-weight: 700;
-    text-shadow: 1px 2px #2dc997;
+    text-shadow: 1px 1px #2dc997;
 }
 
 #call-to-action .cta-text {
     color: #ff9;
-    text-shadow: 1px 2px #2dc997;
+    text-shadow: 1px 1px #2dc997;
 }
 
 @media (min-width: 769px) {
@@ -874,6 +874,7 @@ section {
             position: relative;
             top: 0;
             transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+            max-height: 100px;
         }
 
         #portfolio .portfolio-item .portfolio-info {

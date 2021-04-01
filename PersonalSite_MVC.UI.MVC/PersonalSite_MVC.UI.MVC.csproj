@@ -257,6 +257,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\favicon2.png" />
+    <Content Include="Content\img\home.PNG" />
     <Content Include="Content\img\0.jpg" />
     <Content Include="Content\img\1615421914153.jpg" />
     <Content Include="Content\img\about-img.jpg" />
@@ -282,6 +283,7 @@
     <Content Include="Content\img\IMG_6667 %281%29.jpg" />
     <Content Include="Content\img\James.png" />
     <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\p&amp;w.png" />
     <Content Include="Content\img\portfolio\portfolio-1.jpg" />
     <Content Include="Content\img\portfolio\portfolio-2.jpg" />
     <Content Include="Content\img\portfolio\portfolio-3.jpg" />
